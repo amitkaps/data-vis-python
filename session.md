@@ -1,4 +1,4 @@
-# Session Plan for Data Visualisation Workshop
+# Session Plan 
 
 The workshop would be structured with a mix of conceptual learning (40%) and hands-on practice (60%) over the two days. Listed below is the session schedule and detail outline.
 
@@ -34,7 +34,6 @@ The workshop would be structured with a mix of conceptual learning (40%) and han
 
 ---
 
-\newpage
 
 ## Day One – Detailed Session Plan 
 
@@ -132,7 +131,7 @@ The workshop would be structured with a mix of conceptual learning (40%) and han
     - Groups to get started on the assignment
 
 
-\newpage
+---
 
 ## Day Two – Detailed Session Plan 
 
