@@ -4,12 +4,12 @@ autoscale: true
 
 [.slidenumber: false]
 # [fit] **Data Visualisation**
-# *Workshop in Python*
+# *Narrative & Interactive Data-Vis in Python*
 
 *18th & 19th Sept 2019*
-*Workshop Notes*
+*Mumbai, IN*
 
-Mumbai, IN
+Workshop Notes: Day #1
 
 <br>
 
@@ -17,326 +17,777 @@ Mumbai, IN
 
 ---
 
-# Session Plan 
-
-The workshop would be structured with a mix of conceptual learning (40%) and hands-on practice (60%) over the two days. Listed below is the session schedule and detail outline.
-
----
-
-# **Day 1 Sessions**
-
-- 0930 - 1000: **Workshop Introduction**
-- 1000 - 1120: **Session #1: Value of Data Visualisation**
-- 1120 - 1140: Break
-- 1140 - 1300: **Session #2: Tools & Abstractions for Data Visualisation**
-- 1300 - 1400: Lunch
-- 1400 - 1520: **Session #3: Theory of Data Visualisation**
-- 1520 - 1540: Break
-- 1540 - 1700: **Session #4: Guidelines for Better Data Visualisation**
-- 1700 - 1730: **Day One Summary**
-- 1730 - 1900: **Data-Story Group Exercise**
-
----
-
-# **Day 2 Sessions**
-
-- 0930 - 0950: **Recap & Questions**
-- 0950 - 1020: **Data-Story Presentations**
-- 1020 - 1120: **Session #5: Crafting Visual Stories with Data**
-- 1120 - 1140: Break
-- 1140 - 1210: **Data-Story Rework**
-- 1210 - 1320: **Session #6: Interactivity**
-- 1320 - 1420: Lunch
-- 1420 - 1540: **Session #7: Explorable Vis for Business Users**
-- 1540 - 1600: Tea Break
-- 1600 - 1720: **Session #8: Putting together an Interactive Application**
-- 1720 - 1800: **Overall Summary & Way Forward**
-
-
----
-
 # **Workshop Introduction**
 
-- **Objectives:** Context, learning outcomes
-- **Intros:** Participant & facilitator introductions
-- **Context:**: Purpose & role of data visualisation, narrative & interactive Types, tools & python
-- **Expectations**: Alignment & discussion 
+- **Objectives:** Intent & learning outcomes
+- **Context:**: Purpose & role of data visualisation, narrative & interactive types, tools & python
 - **Approach**: Conceptual & exercise based, group formations 
+- **Intros:** Participant & facilitator introductions
+- **Expectations**: Alignment & discussion 
 - **Checkin**: Python setup and installation readiness
 
 ---
 
 # **Objectives**
 
----
-
-# **Introduction**
+- Understand the *value of data visualisation* and the role it plays in business analytics and decision making
+- Learn the *theory of data visualisation* including grammar, types, color, annotation, flow, animation, interaction etc.
+- Build an understanding of *visual perception and cognition* to gain an intuitive sense of how data visualisation work
+- Get exposure to tools that can be used to create *data-visualisation in python.*
 
 ---
 
 # **Context**
 
----
+Learn through practice the two contexts in which data visualisation is used with business stakeholders
 
-# **Expectations**
-
----
-
-# **CheckIn**
+– *Narrative visualisation* (say, telling a compelling data-story in a presentation)
+– *Interactive visualisation* (say, allowing business user to visually explore a complex data-set or a model)
 
 ---
 
-# **Narrative Visualisation Sessions**
+# **Approach**
+
+- The workshop is structured with a mix of *conceptual learning* (40%) and *practice sessions* (60%) 
+- This is a *hands-on workshop* and we will learn by using *python and notebook*
+- There will be a *case-study based approach* - Telco Churn Example - to learn from.
+- Each day will have *four main sessions*: see session plan next
+
+---
+
+# **Day 1 Sessions**
+
+- **Workshop Introduction** (0930 - 1000) 
+- **Session #1: Value of Data Visualisation** (1000 - 1120)
+- Break (1120 - 1140)
+- **Session #2: Tools & Abstractions for Data Visualisation** (1140 - 1300)
+- Lunch (1300 - 1400)
+- **Session #3: Theory of Data Visualisation** (1400 - 1520)
+- Break (1520 - 1540)
+- **Session #4: Guidelines for Better Data Visualisation** (1540 - 1700) 
+- **Day One Summary** (1700 - 1730)
+- **Data-Story Group Exercise** (1730 - 1900)
+
+---
+
+# **Day 2 Sessions**
+
+- **Recap & Questions** (0930 - 0950)
+- **Data-Story Presentations** (0950 - 1020)
+- **Session #5: Crafting Visual Stories with Data** (1020 - 1120)
+- Break (1120 - 1140)
+- **Data-Story Rework** (1140 - 1210)
+- **Session #6: Interactivity** (1210 - 1320)
+- Lunch (1320 - 1420)
+- **Session #7: Explorable Vis for Business Users** (1420 - 1540)
+- Tea Break (1540 - 1600)
+- **Session #8: Putting together an Interactive Application** (1600 - 1720)
+- **Overall Summary & Way Forward** (1720 - 1800)
+
+---
+
+# **Introduction & Expectations**
+
+- Tell us about yourself
+    - Name & Role
+    - Experience with Python
+    - Experience with Analytics
+    - One thing you want to learn from the workshop
+
+---
+
+# **Group Formation**
+
+- Groups of 4 or 5 
+- Mixed experience of Python & Analytics
+- For the data-story work & presentation
+
+---
+
+# **Installation Check In**
+
+*Workshop Repo*
+[https://github.com/amitkaps/data-vis-workshop](https://github.com/amitkaps/data-vis-workshop)
+
+- Did you follow the instruction in the README.md?
+- Any issues you faced?
+
+---
+
+# [fit] **Narrative Visualisation**
+
+---
+
+# **#1: Value of Data Visualisation**
+
+---
+
+![](img/warstories.jpg)
+### **War Stories &** 
+### **Killer Charts**
+
+---
+
+# __**analysis**__
+# __**numbers**__
+# __**argument**__
+
+
+---
+
+> *Humans are* 
+> __**pattern-seeking**__ 
+> __**story-telling**__ 
+> *animals.*
+
+
+---
+
+# ~~analysis~~ __**Synthesis**__
+# ~~numbers~~ __**Visuals**__
+# ~~argument~~ __**Story**__
+
+---
+
+![fit](img/framework.jpeg)
+
+---
+
+--
+
+# **What is visualisation?**
+
+---
+
+# **Exercise:** Visualise this data in at least 10 different ways - using paper & pen
+
+![inline](img/exercise.png)
+
+---
+
+> _**Visualisation** is the **transformation** of the **symbolic** into **geometric.**_
+-- McCormick et al.
+
+---
+
+![inline fit](img/pendulum.gif)
+
+---
+
+## **Start with Data**
+
+![original](img/exercise-00.jpg)
+
+---
+
+## **Identify the Variables**
+
+![original](img/exercise-01.jpg)
+
+---
+
+## **Pick Marks and Scales**
+
+![original](img/exercise-02.jpg)
+
+---
+
+## **Map to Coordinate**
+
+![original](img/exercise-03.jpg)
+
+---
+
+## **Example #1**
+
+![original](img/exercise-04.jpg)
+
+---
+
+![original](img/exercise-05.jpg)
+
+---
+
+## **Vis Examples: 1-5**
+
+![original](img/exercise-04.jpg)
+
+---
+
+![original](img/exercise-05.jpg)
+
+---
+
+## **Vis Examples: 6-10**
+
+![original](img/exercise-06.jpg)
+
+---
+
+![original](img/exercise-07.jpg)
+
+---
+
+## **Vis Examples: 11-15**
+
+![original](img/exercise-08.jpg)
+
+---
+
+![original](img/exercise-09.jpg)
+
+---
+
+## **Vis Examples: 16-20**
+
+![original](img/exercise-10.jpg)
+
+---
+
+![original](img/exercise-11.jpg)
+
 
 ---
 
 
-
-# **Session #1: Value of Data Visualisation**
-
----
-
-- **Icebreaker:** Visualise two numbers in at least 20+ ways in 5 minutes using paper & pen
+![](img/see.jpeg)
+## **Learning to See**
 
 ---
 
-- **Concept – Types:** Types of data visualisation with examples *(10 mins)*
-    - Explore & Explain 
-    - Static & Interactive
-    - Analytical & Emotive
+> _**Visualisation** is the use of computer-generated, **interactive, visual representations** of **abstract data** to **amplify cognition.**_
+-- Card, Mackinlay, & Shneiderman
+
+---
+
+# **Types of data visualisation with examples**
+
+  - Explore & Explain 
+  - Static & Interactive
+  - Analytical & Emotive
 
 --- 
 
-- **Concept – Process & Audience:** Process & Audience for data visualisation  *(20 mins)*
-    - Linkage with analytical problem solving process: *Why - What - How - So What - So Why*
-    - Audience needs and understanding: Stakeholder mapping, Data & visual literacy
-    - Engagement in different context: personal, presentation & participation
+# **Analytics Process, Visualisation & Audience** 
+
+- Linkage with analytical problem solving process: *Why - What - How - So What - So Why*
+- Audience needs and understanding: *type, data & visual literacy*
+- Engagement in different context: *personal, presentation & participation*
 
 ---
 
-- **Exercise – Small Data:** Visualise a small data table in 10+ ways using paper & pen *(20 mins)*
+![fit](img/analytics-basic.png)
 
 ---
 
-- **Concept – Data & Visuals:** Unpacking the exercise *(20 mins)*
-    - Data structures (tabular, hierarchical, matrix) & types (continuous, categorical, temporal, geographic)
-    - Visual encoding basics (mark, scales, channels, coordinate system) & decoding principles basics (perception, gestalt) 
+# **Analytics Process**
+
+1. **The Why** — Define the Problem
+2. **The What** — Frame the Analytical Questions
+3. **The How** — Conduct Analytics: Data–Model–Vis
+4. **The So What** — Build the Insights
+5. **The So Why** — Explain through Narrative
 
 ---
 
-### Session #2: Tools & Abstractions for Data Visualisation
+![fit](img/analytics.png)
 
 ---
 
-- **Concept – Tools Abstraction:** Understand the tools landscape & abstraction *(10 mins)*
-    - Charting vs. Grammar vs. Canvas
-    - Static vs. Interactive
-    - SVG vs Canvas vs WebGL Rendering
-    - Data loading & transformation strategy
+# **Visualisation & Analytics**
+
+- *Visual Exploration*: Exploratory Data Analysis
+- *Insight Dashboard*: Interactive Visualisation
+- *Visual Explanation*: Narrative Visualisation
 
 ---
 
-# Exercise: Small dataset in Altair
-(Workbook 1)
+![fit](img/analytics-vis.png)
 
 
 ---
 
-# Python Libraries
+# **Audience Types**
 
-- **Concept – Python Libraries**: Overview of select libraries for data visualisation in Python *(10 mins)*
-    - Static: `matplotlib`, `seaboarn`, `pandas`
-    - Interactive: `altair`, `bokeh`, `plotly`, `holoviews`
-    - Dasboards: `dash`, `panels`
-
----
-
-# Introduce the Telco Dataset
+- *Analytics*: Rich data and modelling experience, high comfort with complex usage 
+- *Operational*: Mainly metrics driven with detailed drill-down requirements to build understanding
+- *Business*: CxO or Business roles, looking for explanation and actions
 
 ---
 
-# **Exercise – Basic Vis**: 
+# **Audiences & Participation Mode**
 
-(Workbook 2)
+*Visual Exploration*: 
+Personal mode with Analytics Audience 
 
-Create simple static visualisations using python libraries *(25 mins)*
-    - 1D Continuous or Categorical
-    - 2D Continuous and Categorical Combinations 
+*Insight Dashboard*:
+Participative mode with Operational Audience
+
+*Visual Explanation*
+Presentation mode with Business Audience
 
 ---
 
-# Representation Guides
+# **Four Layers of Visual Abstraction**
 
-**Concept – Representation Guide**: Explore a guide to choosing simple types of graphical representations for purpose *(10 mins)*
+- Data Layer
+- Visual Layer
+- Annotation Layer
+- Interaction Layer
 
-- Visual Vocabulary
-- Gramener Vega / Vega-Lite Version: https://gramener.github.io/visual-vocabulary-vega/
+---
+
+![](img/layers-00.jpg)
+
+---
+
+# **Data Layer**
+
+Types
+- Categorical: Nominal, Ordinal
+- Continuous: Temporal, Quantitative
+
+Transforms
+- Reshape (e.g. tall <-> wide)
+- Aggregation (e.g. bins)
+- Basic Stats (e.g. min, max, sum, ...)
+- Calculate e.g. New Variables, Window
+- Filtering, Sampling
+ 
+---
+
+# **Visual Layer**
+
+- Marks: Points, Ticks, Lines, Bar, Area, Glyphs,
+Polygon, ...
+- Channels: Position-X, Position-Y, Size, Color, Shape, Path, ...
+- Scale: Linear, Log, ...
+- Coordinate: Cartesian, Polar, Geo, Parallel
+- Layout: Single, Facet, Multi-Chart
+
+---
+
+# **Annotation Layer**
+
+- Title and Labels
+- Axis and Tick marks
+- Legends
+- Grids and Reference Marks
+- Text Annotation
+- Story Elements
+
+---
+
+# **Interaction Layer**
+
+- Select e.g. Highlight
+- Explore & Navigate e.g. Pan, Zoom, Scale, Rotate
+- Connect e.g Brushing & Linking
+- Filter & Conditions e.g. Dynamic Queries
+- Reconfigure e.g. Sorting
+- Transition e.g. Scrolling, Layers
+- Staging & Animation
+
+
+---
+
+# **Data Types**
+
+- What are the types of data on which we are learning?
+- Can you give example of say measuring temperature?
+
+---
+
+# **Data Types e.g. Temperature**
+
+**Categorical** 
+    - *Nominal*: Burned, Not Burned
+    - *Ordinal*: Hot, Warm, Cold
+
+**Continuous**
+    - *Interval*: 30 °C, 40 °C, 80 °C 
+    - *Ratio*: 30 K, 40 K, 50 K 
+
+---
+
+# **Data Types**
+
+**Categorical**
+- *Nominal (N)* e.g. OSX, Windows, Android
+- *Ordinal (O)* e.g. Good, Better, Best 
+
+**Continuous** 
+- *Interval* (zero arbitrary) e.g. 
+  -> *Temporal (T)*: dates & time
+  -> *Geographic*: latitude & longitude
+- *Ratio (Q)* (zero fixed) e.g. length, mass
+ 
+
+---
+
+# **Data Types: Operations**
+
+**Categorical** 
+  - *Nominal*: = , !=
+  - *Ordinal*: =, !=, >, <
+
+**Continuous**
+  - *Interval*: =, !=, >, <, -, % of diff 
+  - *Ratio*: =, !=, >, <, -, +, %
+
+---
+
+# **Data Structures**
+
+- Tabular (2d arrays) e.g. spreadsheet 
+- n-Dimension arrays e.g. images, videos
+- Hierarchical data e.g. folders of text
+- Spatial data e.g. for maps
+- ...
+
+---
+
+# **Common Data Types & Structure**
+
+| Matrix |  Example |  Shape                |
+|:-------|:---------|:----------------------|
+| 2D     | Tabular  | (samples, features)    |
+| 3D     | Sequence (Time & Text) | (samples, steps, features)    |
+| 4D     | Images   | (samples, height, width, channels)    |
+| 5D     | Videos   | (samples, frames, height, width, channels)    |
+
+---
+
+# **#2: Tools & Abstractions for Data Visualisation**
+
+---
+
+# **Tools Abstraction:** 
+
+- Charting vs. Grammar vs. Canvas
+- Static vs. Interactive
+- SVG vs Canvas vs WebGL Rendering
+- Data loading & transformation strategy
+
+---
+
+![fit](img/charting.jpg)
+
+---
+
+
+![fit](img/pixel.jpg)
+
+
+---
+
+![fit](img/grammar.jpg)
+
+---
+
+
+![fit](img/code.jpg)
+
+---
+
+![fit](img/visual.jpg)
+
+---
+
+### **Python Data-Vis Libraries**
+
+![original fit](img/landscape-colors.png)
+
+---
+
+# **Python Libraries**
+
+**Static e.g.**
+`matplotlib`, `seaborn`, `pandas`
+
+**Interactive e.g.**: 
+`altair`, `bokeh`, `plotly`, `holoviews`
+
+
+---
+
+# **Rendering Capabilities**
+
+Number of Data Points
+— SVG: ~10^3
+— Canvas: ~10^4 
+— Web.gl: ~10^6
+
+---
+
+# **Exercise**: Start with the small dataset 
+
+- Getting started with Altair
+- Let us use the sample dataset 
+- Please make at least 2 visualisation from the hand-drawn examples
+
+---
+
+# **Case Introduction**
+
+- Context: Telco Churn Data
+- Start with Why & What
+- Dataset introduction
+
+
+---
+
+![fit](img/analytics-basic.png)
+
+---
+
+# **Exercise – Basic Visualisation**
+
+**Create simple static visualisations**
+- 1D Continuous 
+- 1D Categorical
+- 2D Continuous and Categorical 
+- 2D Continuous & Continuous
+- 2D Categorical & Continuous
+
+---
+
+# **Visualisation Guides**
+
+
+> _Visualization gives you **answers to questions you didn't know you had.**_
+-- Ben Schneiderman
+
+
+---
+
+![fit](img/questions-0.jpg)
+
+---
+
+![fit](img/questions-1.jpg)
+
+---
+
+# **Who & What**: _Distribution[^1]_
+
+![inline 90%](img/example-distribution.gif)
+
+[^1]: [Capabilities Premium](https://www.strategyand.pwc.com/eref/capabilities_premium_ma/ma-interactive-tool.html?sector=retail)
+
+---
+
+![fit](img/questions-2.jpg)
+
+---
+
+# **How Many**: _Comparison[^2]_
+
+![inline 120%](img/example-comparsion.png)
+
+[^2]: [Working Capital Profiler](...)
+
+---
+
+![fit](img/questions-3.jpg)
+
+---
+
+# **Where**: _Maps[^3]_
+
+![inline](img/wind.gif)
+
+[^3]: [Wind Map](http://hint.fm/wind/gallery/oct-30.js.html)
+
+---
+
+![fit](img/questions-4.jpg)
+
+---
+
+# **When**: _Timeline[^4]_
+
+![inline fit](img/meat.jpg)
+
+[^4]:[New York Times](https://archive.nytimes.com/www.nytimes.com/imagepages/2011/03/15/science/15food_graphic.html)
+
+---
+
+![fit](img/questions-5.jpg)
+
+---
+
+# **How**: _Relationship[^5]_
+
+![inline](img/the_color_of_notes.gif)
+
+[^5]: [Amit Kapoor](https://amitkaps.com/data-portraits)
+
+---
+
+![fit](img/questions-6.jpg)
+
+
+---
+
+# **Why**: **Deduction & Prediction[^6]**
+
+![inline ](img/example-prediction.gif)
+
+[^6]: [Mike Bostock](https://bost.ocks.org/mike/nations/)
+
+---
+
+![fit](img/questions-6.jpg)
+
+---
+
+# **Guide to choosing appropriate visualisation**
+
+**FT Visual Vocabulary**
+[ft.com/vocabulary](http://ft.com/vocabulary)
+
+**Vega-lite version**
+[gramener.github.io/visual-vocabulary-vega/](https://gramener.github.io/visual-vocabulary-vega/)
+
+---
+
+![fit](img/visual-vocabulary.jpg)
 
 ---
 
 #  **Exercise - Purpose:** 
 
-(Workbook 3)
-
-Creating select visualisation with purpose & objective *(25 mins)*
-    - Distribution
-    - Ranking
-    - Comparison
-
----
-
-### Session #3: Theory of Data Visualisation *(80 mins)*
+**Creating visualisation with purpose & objective**
+- Distribution
+- Ranking
+- Magnititude
+- Correlation
 
 ---
 
-
-- **Concept – Encoding Grammar:** Deep dive into the grammar of graphics for Encoding *(15 mins)*
-    - Data: wide tabular, long tabular
-    - Transformation: bin, sort, filter, calculate, aggregate
-    - Mark: symbol-type, length-type, area-type, glyphs
-    - Channels: position, size, colour, shape, text
-    - Scales: continuous, discrete, discretising
-    - Guides: axis, legends, labels
-    - Coordinates: cartesian, polar, geographic
+# **#3: Theory of Data Visualisation**
 
 ---
 
-- **Exercise – Encoding:** Encode the dataset using different marks & channels *(25 mins)*
-    - Alternate mark representation
-    - Alternate channel choices
+> "We do data visualisations to _**learn**_ something new, not just to _**confirm**_" 
+-- Edward Tufte
 
 ---
 
-- **Concept – Decoding Principles:** Understand how visual perception works and how it can be applied to choose the appropriate visualisations *(15 mins)*
-    - Gestalt & visual perception
-    - Ranking of channel effectiveness & efficiency
-    - Error in decoding & empirical evidence
-- **Exercise – Decoding:** Visualisation decoding critique and improving an existing visualisation *(25 mins)*
-    - Alternate transformation & representations
-    - Alternate scale representations
----
+# **Encoding Grammar** 
 
-
-### Session #4: Guidelines for Better Data Visualisation *(80 mins)*
-- **Concept – Enhancing Visualisation:** Guidelines for enhancing static data visualisation *(15 mins)*
-    - Comparing & sorting
-    - Add encoding variables
-    - Optimal scales & reference lines
-    - Layering & facets
-    - Over-plotting reduction
+**Deep dive into the grammar of graphics**
+- *Data*: wide tabular, long tabular
+- *Transform*: bin, sort, filter, calculate, age
+- *Mark*: symbol-type, length-type, area-type
+- *Channels*: X, Y, size, colour, shape, text
+- *Scales*: continuous, discrete, discretising
+- *Guides*: axis, legends, labels
+- *Coordinates*: cartesian, geographic
 
 ---
 
-- **Exercise – Enhance**: Enhancing an existing static visualisation in python *(25 mins)*
-    - Adding facets & layers exercise
-    - Handling over-plotting reduction
+# **Exercise – Encoding** 
+
+Encode the telco churn data visualisation using different marks & channels
+- Alternate mark representation
+- Alternate channel choices
+
+---
+
+# **Decoding Principles** 
+
+Understand how *visual perception* works 
+- Gestalt & visual perception
+- Ranking of channel effectiveness & efficiency
+
+Apply to *select appropriate visualisations*
+- Error in decoding & empirical evidence
+
+---
+
+# **Exercise – Decoding** 
+
+Visualisation decoding critique and improving an existing visualisation
+- Alternate transformation & representations
+- Alternate scale representations
+
+---
+
+# **#4: Guidelines for Better Data Visualisation**
+
+---
+
+# **Concept – Enhancing Visualisation** 
+
+Guidelines for enhancing static data visualisation 
+- Comparing & sorting
+- Add encoding variables
+- Optimal scales & reference lines
+- Layering & facets
+- Over-plotting reduction
+
+---
+
+# **Exercise – Enhance**
+
+Enhancing an existing static visualisation in python
+
+- Adding facets & layers exercise
+- Handling over-plotting reduction
 
 ---
 
 
-- **Concept – Color & Guides:** Effective use of color & guides in data visualisation *(15 mins)*
-    - Chart junk & data-ink ratio
-    - Guidelines on axes and legends
-    - Color for categorical & continuous encoding
-    - Aesthetics & theming to have consistent style
-- **Exercise – Redesign:** Redesign of an existing visualisation to improve guides, color & aesthetics (25 mins)
+# **Concept – Color & Guides** 
+
+Effective use of color & guides in data visualisations
+- Chart junk & data-ink ratio
+- Guidelines on axes and legends
+- Color for categorical & continuous encoding
+- Aesthetics & theming to have consistent style
 
 ---
 
-### Day One Summary & Narrative Group Exercise *(30 mins)*
+# **Exercise – Redesign** 
+
+Redesign of an existing visualisation to improve guides, color & aesthetics
+
+
+---
+
+# **Narrative Group Exercise** 
+
+---
+
+# **Data-Story Exercise**
+
+**Building narrative with purpose & audience context**
+- To prepare a three-slide data-visual-story to be presented tomorrow morning.
+- Presentation timing is 2 mins
+- Groups to get started on the assignment
+
+---
+
+# **Day One Summary** 
+
 - Recap of day one concepts and lessons
 - Set the context for day two sessions
 - Questions & Answers on Day 1 scope
 
-### Data-Story Group Exercise  *(90 mins)*
-- **Concept - Narratives:** Building narrative with purpose & audience context
-- **Group Exercise:** To prepare a three-slide data-visual-story to be presented tomorrow morning. *(20 mins)*
-    - Group assignment & confirmation
-    - Prepare 3-slides data-visual-story & be ready to present in 2 mins
-    - Groups to get started on the assignment
-
-
 ---
 
-## Day Two – Detailed Session Plan 
+# **Day 2 Sessions**
 
-### **Workshop Continuation: Day Two** *(20 mins)*
-- **Summary of Day One:** Quick recap of day one coverage
-- **Questions:**: Q&A session, clarification and understanding gaps 
-- **Expectations**: Day two agenda and coverage
-- **Checkin**: Group assignment progress and submission
-
-
-### *Narrative Visualisation Sessions (contd.)*
-
-### Data-Story Presentations (30 mins)
-- Data-story presentation by each group: 8 presentations of 2 mins each 
-- Each group summarise what the like & what could be better
-- Summary takeaways from presentations
-
-### Session #5: Crafting Visual Stories with Data (60 mins)
-- **Concept – Narratives:**: Explore the principles of storytelling and narrative (15 mins)
-    - Why stories & narratives and why they work so effectively
-    - Lessons on how narratives work from other mediums: oral storytelling, journalism, movies, comics and consulting
-    - Audience goals, data & visual literacy
-    - Why annotation and principles of text annotation
-- **Exercise – Messaging**: Improving the existing visualisation on one slide by adding annotation (15 mins)
-- **Concept – Improving a data-visual-story**: Elements of building a good data-visual-story & examples from the fields (15 mins)
-    - Audience & goals
-    - Data abstraction & representation 
-    - Aesthetics & theming
-    - Annotation & messaging
-    - Framing & transitions
-    - Flow
-- **Exercise – Flow:** Enhancing the overall narrative of the existing data-visual-story (15 mins)
-
-### Data-Story Rework (30 mins)
-- **Exercise: Re-work theData-story presentation by each group: 8 presentations of 2 mins each 
-- Each group summarise what the like & what could be better
-- Summary takeaways from presentations
-
-### Interactive Visualisation Sessions
-
-### Session #6: Interactivity *(70 mins)*
-- **Concept – Interaction:** Why and when to use interactive data visualisation *(10 mins)* 
-    - Basic building blocks for interaction: selections, events and conditions
-    - Basic patterns of selection & explore
-- **Exercise – Selection:** Adding selection & highlighting to data-vis (25 mins)
-- **Concept – Patterns:** Explore common interaction patterns and examples *(10 mins)*
-    - Select: mark something as interesting    
-    - Explore: show me something else 
-    - Encode: show me a different representation   
-    - Abstract/Elaborate: show me more or less detail
-    - Filter: show me something conditionally 
-    - Connect: show me related items
-    - Reconfigure: show me a different arrangement
-- **Exercise – Adding Interaction:** Adding advanced interactivity to data-visualisation (25 mins)
-    - Adding brushing & linking to the concurrent views
-    - Adding focus & context together 
-
-### Session #7: Explorable Vis for Business Users *(80 mins)*
-- **Concept – Model Visualisation:** Principles of model visualisation & linkage to data visualisations *(15 mins)*
-    - Prediction vs. data space
-    - Predictions & errors
-    - Data & model uncertainty
-- **Exercise – Prediction:** Model visualisation exercise on showing uncertainty and errors on regression examples *(25 mins)*
-- **Concept – Business Usage:** Augmenting model insight with domain knowledge and linking to business value and output examples*(15 mins)*
-    - Parameterisation
-    - Scenario Building
-- **Exercise – Parameterisation**: Creating exploratory visualisation for parameterised models and scenarios for business user, example on a classification exercise *(25 mins)*
-
-### Session #8: Putting together an Interactive Application *(80 mins)*
-- **Concept – Interface & Structure**: Design principles for an interactive interface for a business audience (20 mins) 
-    - Audience needs & requirements
-    - Choose a structure: flow, relationships, grouping or narrative
-    - Understand guiding design principles: compactness, modularity, reveal, focus & guide attention, customisation, context aware, lead to action
-- **Exercise – Interactive App:** Building an interactive visualisation application for the business combining data & model vis *(50 mins)*
-- **Concept – Design:** Architecture design of an interactive application, conceptual only *(10 mins)*
-    -  Scaling-up 
-    -  Scaling-out  
-
-### Overall Summary *(40 mins)*
-- Workshop recap of concepts and lessons
-- Way forward & learning paths
-- Suggestions on resources for continued learning
-- Question and Answers
+- **Recap & Questions** (0930 - 0950)
+- **Data-Story Presentations** (0950 - 1020)
+- **Session #5: Crafting Visual Stories with Data** (1020 - 1120)
+- Break (1120 - 1140)
+- **Data-Story Rework** (1140 - 1210)
+- **Session #6: Interactivity** (1210 - 1320)
+- Lunch (1320 - 1420)
+- **Session #7: Explorable Vis for Business Users** (1420 - 1540)
+- Tea Break (1540 - 1600)
+- **Session #8: Putting together an Interactive Application** (1600 - 1720)
+- **Overall Summary & Way Forward** (1720 - 1800)
