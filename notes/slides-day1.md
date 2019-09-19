@@ -266,6 +266,55 @@ Learn through practice the two contexts in which data visualisation is used with
   - Static & Interactive
   - Analytical & Emotive
 
+---
+
+![](img/explore-explain-00.jpg)
+
+---
+
+![](img/explore-explain-01.jpg)
+
+---
+
+
+![](img/explore-explain-02.jpg)
+
+---
+
+![](img/explore-explain-03.jpg)
+
+---
+
+
+![](img/explore-explain-04.jpg)
+
+
+---
+
+![](img/explore-explain-05.jpg)
+
+---
+
+
+![](img/explore-explain-06.jpg)
+
+
+---
+
+![](img/explore-explain-07.jpg)
+
+--- 
+
+![](img/explore-explain-08.jpg)
+
+---
+
+![](img/explore-explain-tone.jpg)
+
+---
+
+![](img//vis-skills.jpg)
+
 --- 
 
 # **Analytics Process, Visualisation & Audience** 
@@ -552,6 +601,14 @@ Number of Data Points
 
 ---
 
+![](img/2Q-charts-2.jpg)
+
+---
+
+![](img/2Q-charts-1.jpg)
+
+---
+
 # **Visualisation Guides**
 
 
@@ -688,6 +745,12 @@ Number of Data Points
 
 ---
 
+## **Resources**
+
+See **Representation Slide Deck** for more concepts
+
+---
+
 # **Exercise – Encoding** 
 
 Encode the telco churn data visualisation using different marks & channels
@@ -707,6 +770,10 @@ Apply to *select appropriate visualisations*
 
 ---
 
+See **Aesthetics Slide Deck** for more concepts
+
+---
+
 # **Exercise – Decoding** 
 
 Visualisation decoding critique and improving an existing visualisation
@@ -716,6 +783,12 @@ Visualisation decoding critique and improving an existing visualisation
 ---
 
 # **#4: Guidelines for Better Data Visualisation**
+
+---
+
+# Resources
+
+See **Aesthetics Slide Deck** for more concepts
 
 ---
 
